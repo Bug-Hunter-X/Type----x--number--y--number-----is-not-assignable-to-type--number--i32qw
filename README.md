@@ -1,0 +1,1 @@
+This bug demonstrates a common issue in TypeScript related to type mismatches. The function `printCoord` expects an object with `x` and `y` properties of type number. However, the object passed to the function is missing the y property.  The solution involves correctly defining the type of the object passed to the function or using optional properties.
